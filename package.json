@@ -10,7 +10,7 @@
     "url": "git+https://github.com/3imed-jaberi/koa-better-response-time.git"
   },
   "scripts": {
-    "lint": "eslint --plugin markdown --ext js,md .",
+    "lint": "eslint .",
     "pretest": "npm run lint",
     "test": "mocha index.spec.js --exit",
     "precoverage": "rimraf .nyc_output coverage",
@@ -34,7 +34,6 @@
     "eslint": "^7.4.0",
     "eslint-config-standard": "^14.1.1",
     "eslint-plugin-import": "^2.22.0",
-    "eslint-plugin-markdown": "^1.0.2",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
