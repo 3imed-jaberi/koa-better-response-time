@@ -12,7 +12,7 @@
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "test": "mocha index.spec.js --exit",
+    "test": "mocha index.spec.js v1.spec.js --exit",
     "precoverage": "rimraf .nyc_output coverage",
     "coverage": "nyc npm run test",
     "ci": "npm run coverage"
@@ -38,6 +38,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "^4.0.1",
     "koa": "^2.13.0",
+    "koa-v1": "npm:koa@v1",
     "mocha": "^7.1.1",
     "nyc": "^15.1.0",
     "rimraf": "^3.0.2",
