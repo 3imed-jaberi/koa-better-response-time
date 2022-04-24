@@ -1,15 +1,13 @@
 /*!
  * koa-better-response-time
- * Copyright(c) 2020 Imed Jaberi
+ * Copyright(c) 2020-2022 Imed Jaberi
  * MIT Licensed
  */
-
 'use strict'
 
 /**
  * Expose `xResponseTime()`.
  */
-
 module.exports = xResponseTime
 
 /**
@@ -23,7 +21,6 @@ module.exports = xResponseTime
  *
  * @api public
  */
-
 function xResponseTime (options) {
   options = options || {}
 
