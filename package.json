@@ -1,6 +1,6 @@
 {
   "name": "koa-better-response-time",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "main": "index.js",
   "files": [
     "index.js"
@@ -29,23 +29,22 @@
     "url": "https://www.3imed-jaberi.com"
   },
   "license": "MIT",
-  "dependencies": {},
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "koa": "^2.13.0",
+    "eslint-plugin-promise": "^4.3.1",
+    "eslint-plugin-standard": "^4.1.0",
+    "koa": "^2.13.4",
     "koa-v1": "npm:koa@v1",
-    "mocha": "^7.1.1",
+    "mocha": "^9.2.2",
     "nyc": "^15.1.0",
     "rimraf": "^3.0.2",
-    "supertest": "^4.0.2"
+    "supertest": "^6.2.2"
   },
   "enignes": {
-    "node": ">= 8"
+    "node": ">= 12"
   },
   "bugs": {
     "url": "https://github.com/3imed-jaberi/koa-better-response-time/issues"
