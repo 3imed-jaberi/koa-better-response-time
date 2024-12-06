@@ -1,6 +1,6 @@
 {
   "name": "koa-better-response-time",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "main": "index.js",
   "files": [
     "index.js"
@@ -12,7 +12,7 @@
   "scripts": {
     "lint": "eslint .",
     "pretest": "npm run lint",
-    "test": "mocha index.spec.js v1.spec.js --exit",
+    "test": "node --test \"index.spec.js\"",
     "precoverage": "rimraf .nyc_output coverage",
     "coverage": "nyc npm run test",
     "ci": "npm run coverage"
@@ -36,15 +36,15 @@
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
     "eslint-plugin-standard": "^4.1.0",
-    "koa": "^2.13.4",
+    "koa": "^2.15.3",
     "koa-v1": "npm:koa@v1",
     "mocha": "^9.2.2",
-    "nyc": "^15.1.0",
-    "rimraf": "^3.0.2",
-    "supertest": "^6.2.2"
+    "nyc": "^17.1.0",
+    "rimraf": "^5.0.10",
+    "supertest": "^7.0.0"
   },
   "enignes": {
-    "node": ">= 12"
+    "node": ">= 18"
   },
   "bugs": {
     "url": "https://github.com/3imed-jaberi/koa-better-response-time/issues"

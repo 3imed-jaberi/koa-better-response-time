@@ -3,8 +3,7 @@
     ".js"
   ],
   "exclude": [
-    "index.spec.js",
-    "v1.spec.js"
+    "index.spec.js"
   ],
   "reporter": [
     "text-lcov",

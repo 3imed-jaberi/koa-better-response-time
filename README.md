@@ -26,7 +26,6 @@ Response time for Koa.js. Inspired from `response-time` with same object options
 > The "response time" is defined here as the elapsed time from when a request 
 > enters this middleware to when the headers are written out to the client.
 
-
 ## `Installation`
 
 ```bash
@@ -63,8 +62,8 @@ You can pass an object that contains these keys to the **xResponseTime** middlew
 
 Best to `.use()` at the top before any other middleware, to wrap all subsequent middleware.
 
-
 #### License
+
 ---
 
-[MIT](LICENSE) &copy;	[Imed Jaberi](https://github.com/3imed-jaberi)
+[MIT](LICENSE) &copy; [Imed Jaberi](https://github.com/3imed-jaberi)
